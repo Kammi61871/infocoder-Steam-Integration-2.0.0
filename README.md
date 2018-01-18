@@ -8,3 +8,9 @@ The sources of the add-on are taken from the open repository - GitHub: NixFifty 
 Although before the publication, the add-on was tested and the integration worked without criticism.
 
 After installing this add-on, your new users will be able to register on your forum using their Steam account, and existing users will be able to associate their accounts with their Steam accounts.
+
+
+
+For pitures look here
+https://infocoder.su/resources/steam-integration.137/
+
