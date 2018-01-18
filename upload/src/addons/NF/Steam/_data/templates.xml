@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="connected_account_provider_steam" version_id="2000070" version_string="2.0.0"><![CDATA[<xf:textboxrow name="options[steam_api_key]" value="{$options.steam_api_key}"
+	label="{{ phrase('option.nfSteamApiKey') }}"
+	hint="{{ phrase('required') }}"
+	explain="{{ phrase('option_explain.nfSteamApiKey') }}" />]]></template>
+  <template type="admin" title="connected_account_provider_test_steam" version_id="2000070" version_string="2.0.0"><![CDATA[<xf:if is="!$providerData">
+	<xf:macro template="connected_account_provider_test_macros" name="explain"
+			  arg-providerTitle="{$provider.title}"
+			  arg-keyName="{{ phrase('option.nfSteamApiKey') }}"
+			  arg-keyValue="{$provider.options.steam_api_key}" />
+<xf:else />
+	<xf:macro template="connected_account_provider_test_macros" name="success" />
+
+	<xf:macro template="connected_account_provider_test_macros" name="display_name"
+			  arg-name="{$providerData.personaname}"
+			  arg-secondaryName="{{ parens($providerData.realname) }}" />
+
+	<xf:macro template="connected_account_provider_test_macros" name="picture"
+			  arg-url="{$providerData.avatarmedium}" />
+
+</xf:if>]]></template>
+</templates>

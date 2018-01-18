@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="core_button.less" modification_key="add_core_button_steam" description="Steam button" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[		&--yahoo
+		{
+			.m-buttonColorVariation(#410093, white);
+			.m-buttonIcon(@fa-var-yahoo, .86em);
+		}]]></find>
+    <replace><![CDATA[		$0
+		&--steam
+		{
+			.m-buttonColorVariation(#151515, white);
+			.m-buttonIcon(@fa-var-steam, .86em);
+		}]]></replace>
+  </modification>
+  <modification type="public" template="core_button.less" modification_key="add_core_button_steam_uix" description="Steam button UI.X style" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[		&--yahoo
+		{
+			.m-buttonColorVariation(#410093, white);
+			> .button-text:before { .m-faContent(@fa-var-yahoo, 0.86em); }
+		}]]></find>
+    <replace><![CDATA[$0
+		&--steam
+		{
+			.m-buttonColorVariation(#151515, white);
+			> .button-text:before { .m-faContent(@fa-var-steam, 0.86em); }
+		}]]></replace>
+  </modification>
+</template_modifications>

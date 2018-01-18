@@ -1,0 +1,14 @@
+{
+    "src/addons/NF/Steam/addon.json": "82c3a5af752452e77c0e2d1f8719f4bb97be452fae53043fa3743bc79ee7d78f",
+    "src/addons/NF/Steam/Api.php": "6c6926bd81cbceeef0564ff19e540d411382416d07d356197475da1deb2d5fd1",
+    "src/addons/NF/Steam/ConnectedAccount/Provider/Steam.php": "9c1934190200ae7e1c5aaf00692666aa9fb1ec09c98d8e9b1a50a8631a3a471c",
+    "src/addons/NF/Steam/ConnectedAccount/ProviderData/Steam.php": "9370940cba25a64eeb9ffdf6828505b36395fdc1ec81a4b7797d0aeaad325d3c",
+    "src/addons/NF/Steam/Setup.php": "e6241c2242f9b028ed308c0e828f506184706be3b600ae8a3af8e687b2e1a647",
+    "src/addons/NF/Steam/SteamAuth.php": "c2f0ae0b7170395c4f53577f59fff4094e5a1c227bf603245c6a88d4a0f3882d",
+    "src/addons/NF/Steam/SteamToken.php": "d5fce6eb16574c63dd6d77fe1e6507133baca0ebe39b6f37c6b74948f7e533a1",
+    "src/addons/NF/Steam/_data/options.xml": "645a5af7b1cca52a6ca6d9ca5e654f09ff34968f6731eb293d04ebe2613f281e",
+    "src/addons/NF/Steam/_data/option_groups.xml": "e22e58dfffec7e2ff1a33dca64f021ca38f796b7d9e86480bec9d7e03412857c",
+    "src/addons/NF/Steam/_data/phrases.xml": "2ec31ec86a1d3e38136d59ee339f9ba89f383b180f6e6595bcfebea45225fa94",
+    "src/addons/NF/Steam/_data/templates.xml": "fe7b67406d15d176363b3d2aa2e8a86b914df075fa2ee5088a76bde0e6cf171a",
+    "src/addons/NF/Steam/_data/template_modifications.xml": "04c64792f172637a1a0df1c1a9b064ba973d7e4c3550a09f2f800e6aff447140"
+}

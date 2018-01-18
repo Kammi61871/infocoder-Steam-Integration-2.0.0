@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="nf_steam" version_id="2000070" version_string="2.0.0"><![CDATA[Steam]]></phrase>
+  <phrase title="nf_steam_description" version_id="2000070" version_string="2.0.0"><![CDATA[Manage Steam integration]]></phrase>
+  <phrase title="option.nfSteamApiKey" version_id="2000070" version_string="2.0.0"><![CDATA[Steam API Key]]></phrase>
+  <phrase title="option_explain.nfSteamApiKey" version_id="2000070" version_string="2.0.0"><![CDATA[Your Steam Web API key. You can get one <a href="http://steamcommunity.com/dev" target="_blank" rel="noreferrer">here</a>.]]></phrase>
+  <phrase title="option_group.nf_steam" version_id="2000070" version_string="2.0.0"><![CDATA[Steam Integration]]></phrase>
+  <phrase title="option_group_description.nf_steam" version_id="2000070" version_string="2.0.0"><![CDATA[Manage Steam integration]]></phrase>
+</phrases>
